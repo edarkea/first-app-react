@@ -1,9 +1,9 @@
 import React from "react";
 
 interface IProps {
-    name?: string;
-    age?: number;
-    title?: string;
+    name: string;
+    age: number;
+    title: string;
 }
 
 let Customer: React.FC<IProps> = ({ name, age, title }) => {

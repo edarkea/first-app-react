@@ -18,7 +18,12 @@ function App() {
           </div>
           <div className="row">
             <div className="col">
-              <Customer name={"edinson"} age={27} title={"Sistemas"}/>
+              <Customer name={"edinson"} age={27} title={"Sistemas"} />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+            
             </div>
           </div>
         </div>
