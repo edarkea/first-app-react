@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
               <button className="btn btn-success btn-sm">
                 <i className='fa fa-book'></i> Read More
               </button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <Counter/>
             </div>
           </div>
         </div>
