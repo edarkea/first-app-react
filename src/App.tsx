@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LoginForm from './components/LoginForm';
+import UserList from './components/UserList';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           </div>
           <div className="row">
             <div className="col">
-              <LoginForm />
+              <UserList />
             </div>
           </div>
         </div>
