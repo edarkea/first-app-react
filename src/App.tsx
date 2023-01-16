@@ -13,9 +13,9 @@ function App() {
               <p className="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat nam maiores temporibus quasi similique dignissimos, explicabo quod, quos dicta perspiciatis optio numquam id harum quidem voluptatem repudiandae dolorum? Soluta?</p>
             </div>
           </div>
-          <div className="row">
+          <div className='row'>
             <div className="col">
-              <UserList />
+              <UserList/>
             </div>
           </div>
         </div>
