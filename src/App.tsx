@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import UserList from './components/UserList';
 
 function App() {
   return (
@@ -10,6 +11,11 @@ function App() {
             <div className="col">
               <p className="h3 fw-bold text-success">App Component</p>
               <p className="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat nam maiores temporibus quasi similique dignissimos, explicabo quod, quos dicta perspiciatis optio numquam id harum quidem voluptatem repudiandae dolorum? Soluta?</p>
+            </div>
+          </div>
+          <div className='row'>
+            <div className="col">
+              <UserList/>
             </div>
           </div>
         </div>
